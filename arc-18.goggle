@@ -1,0 +1,55 @@
+! name: Arc-18
+! description: Source-ranking policy, revision 01.
+! public: false
+! author: Arc-18
+
+! Segment 00
+$discard
+
+! Segment 01
+$boost=5,site=serlo.org
+$boost=5,site=planet-schule.de
+$boost=5,site=lehrer-online.de
+$boost=5,site=bpb.de
+$boost=5,site=goethe.de
+
+! Segment 02
+$boost=5,site=khanacademy.org
+$boost=5,site=openstax.org
+$boost=5,site=ocw.mit.edu
+$boost=5,site=open.edu
+$boost=5,site=phet.colorado.edu
+
+! Segment 03
+$boost=5,site=geogebra.org
+$boost=5,site=desmos.com
+$boost=5,site=wolframalpha.com
+$boost=5,site=nasa.gov
+$boost=5,site=esa.int
+$boost=5,site=dwd.de
+$boost=5,site=mpg.de
+$boost=5,site=arxiv.org
+$boost=5,site=gutenberg.org
+
+! Segment 04
+$boost=5,site=wikipedia.org
+$boost=5,site=wikimedia.org
+$boost=5,site=wikiquote.org
+$boost=5,site=merriam-webster.com
+$boost=5,site=wordhippo.com
+$boost=5,site=thesaurus.com
+$boost=5,site=dict.leo.org
+
+! Segment 05
+$boost=5,site=support.affinity.studio
+$boost=5,site=dev.epicgames.com
+$boost=5,site=help.autodesk.com
+
+! Segment 06
+$discard,site=play.google.com
+$discard,site=apps.apple.com
+$discard,site=itunes.apple.com
+$discard,site=facebook.com
+$discard,site=fb.com
+$discard,site=instagram.com
+$discard,site=chromewebstore.google.com

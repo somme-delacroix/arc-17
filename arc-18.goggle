@@ -1,5 +1,5 @@
 ! name: Arc-18
-! description: Source-ranking policy, revision 01.
+! description: Source-ranking policy, revision 02.
 ! public: false
 ! author: Arc-18
 
@@ -41,6 +41,7 @@ $boost=5,site=thesaurus.com
 $boost=5,site=dict.leo.org
 
 ! Segment 05
+$boost=9,site=commons.wikimedia.org
 $boost=9,site=affinity.studio
 $boost=9,site=support.affinity.studio
 $boost=9,site=dev.epicgames.com
@@ -68,6 +69,12 @@ $boost=5,site=loc.gov
 $boost=5,site=bl.uk
 $boost=5,site=standardebooks.org
 
+! Segment 09
+$boost=3,site=tvtropes.org
+$boost=3,site=aesthetics.fandom.com
+$boost=3,site=vsbattles.fandom.com
+$boost=3,site=stupidedia.org
+
 ! Segment 06
 $discard,site=play.google.com
 $discard,site=apps.apple.com
@@ -76,3 +83,16 @@ $discard,site=facebook.com
 $discard,site=fb.com
 $discard,site=instagram.com
 $discard,site=chromewebstore.google.com
+$discard,site=bild.de
+$discard,site=spiegel.de
+$discard,site=tagesschau.de
+$discard,site=welt.de
+$discard,site=zeit.de
+$discard,site=faz.net
+$discard,site=sueddeutsche.de
+$discard,site=n-tv.de
+$discard,site=dw.com
+$discard,site=reuters.com
+$discard,site=apnews.com
+$discard,site=bbc.com
+$discard,site=cnn.com

@@ -1,5 +1,5 @@
 ! name: Arc-18
-! description: Source-ranking policy, revision 02.
+! description: Source-ranking policy, revision 03.
 ! public: false
 ! author: Arc-18
 
@@ -41,11 +41,11 @@ $boost=5,site=thesaurus.com
 $boost=5,site=dict.leo.org
 
 ! Segment 05
-$boost=9,site=commons.wikimedia.org
-$boost=9,site=affinity.studio
-$boost=9,site=support.affinity.studio
-$boost=9,site=dev.epicgames.com
-$boost=9,site=help.autodesk.com
+$boost=5,site=commons.wikimedia.org
+$boost=10,site=affinity.studio
+$boost=10,site=support.affinity.studio
+$boost=10,site=dev.epicgames.com
+$boost=10,site=help.autodesk.com
 
 ! Segment 07
 $boost=5,site=britannica.com
@@ -70,10 +70,10 @@ $boost=5,site=bl.uk
 $boost=5,site=standardebooks.org
 
 ! Segment 09
-$boost=3,site=tvtropes.org
-$boost=3,site=aesthetics.fandom.com
-$boost=3,site=vsbattles.fandom.com
-$boost=3,site=stupidedia.org
+$boost=5,site=tvtropes.org
+$boost=5,site=aesthetics.fandom.com
+$boost=5,site=vsbattles.fandom.com
+$boost=5,site=stupidedia.org
 
 ! Segment 06
 $discard,site=play.google.com

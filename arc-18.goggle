@@ -41,9 +41,32 @@ $boost=5,site=thesaurus.com
 $boost=5,site=dict.leo.org
 
 ! Segment 05
-$boost=5,site=support.affinity.studio
-$boost=5,site=dev.epicgames.com
-$boost=5,site=help.autodesk.com
+$boost=9,site=affinity.studio
+$boost=9,site=support.affinity.studio
+$boost=9,site=dev.epicgames.com
+$boost=9,site=help.autodesk.com
+
+! Segment 07
+$boost=5,site=britannica.com
+$boost=5,site=plato.stanford.edu
+$boost=5,site=ourworldindata.org
+$boost=5,site=pubmed.ncbi.nlm.nih.gov
+$boost=5,site=doaj.org
+$boost=5,site=eric.ed.gov
+$boost=5,site=oercommons.org
+$boost=5,site=ck12.org
+$boost=5,site=nrich.maths.org
+
+! Segment 08
+$boost=5,site=dnb.de
+$boost=5,site=deutsche-digitale-bibliothek.de
+$boost=5,site=europeana.eu
+$boost=5,site=openlibrary.org
+$boost=5,site=wikisource.org
+$boost=5,site=hathitrust.org
+$boost=5,site=loc.gov
+$boost=5,site=bl.uk
+$boost=5,site=standardebooks.org
 
 ! Segment 06
 $discard,site=play.google.com

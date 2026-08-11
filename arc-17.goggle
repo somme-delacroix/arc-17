@@ -1,0 +1,42 @@
+! name: Arc-17
+! description: Source-ranking policy, revision 01.
+! public: false
+! author: Arc-17
+
+! Segment 01
+$discard,site=reddit.com
+$discard,site=redd.it
+$discard,site=instagram.com
+
+! Segment 02
+$discard,site=youtube.com
+$discard,site=youtu.be
+
+! Segment 03
+$discard,site=amazon.com
+$discard,site=amazon.de
+$discard,site=amazon.co.uk
+$discard,site=amazon.fr
+$discard,site=amazon.it
+$discard,site=amazon.es
+$discard,site=amazon.nl
+$discard,site=amazon.se
+$discard,site=amazon.pl
+
+! Segment 04
+$discard,site=ebay.com
+$discard,site=ebay.de
+$discard,site=kleinanzeigen.de
+$discard,site=aliexpress.com
+$discard,site=temu.com
+$discard,site=shein.com
+$discard,site=etsy.com
+$discard,site=wish.com
+$discard,site=zalando.de
+$discard,site=aboutyou.de
+$discard,site=otto.de
+$discard,site=mediamarkt.de
+$discard,site=saturn.de
+$discard,site=idealo.de
+$discard,site=wayfair.de
+$discard,site=asos.com
